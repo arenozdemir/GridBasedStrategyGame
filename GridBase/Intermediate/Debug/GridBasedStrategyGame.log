@@ -1,22 +1,2 @@
 ﻿  Enemy.cpp
-  GameLogic.cpp
-C:\Users\Emre\Documents\Visual Studio 2022\Projects\GridBasedStrategyGame\GameLogic.cpp(82,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  (compiling source file '/GameLogic.cpp')
-  
-C:\Users\Emre\Documents\Visual Studio 2022\Projects\GridBasedStrategyGame\GameLogic.cpp(102,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  (compiling source file '/GameLogic.cpp')
-  
-C:\Users\Emre\Documents\Visual Studio 2022\Projects\GridBasedStrategyGame\GameLogic.cpp(102,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  (compiling source file '/GameLogic.cpp')
-  
-  Grid.cpp
-  Hero.cpp
-C:\Users\Emre\Documents\Visual Studio 2022\Projects\GridBasedStrategyGame\Hero.cpp(80,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  (compiling source file '/Hero.cpp')
-  
-  Main.cpp
-C:\Users\Emre\Documents\Visual Studio 2022\Projects\GridBasedStrategyGame\Main.cpp(28,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-  (compiling source file '/Main.cpp')
-  
-  Generating Code...
   GridBasedStrategyGame.vcxproj -> C:\Users\Emre\Documents\Visual Studio 2022\Projects\GridBasedStrategyGame\GridBase\Debug\GridBasedStrategyGame.exe

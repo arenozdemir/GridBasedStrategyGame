@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Entity.h"
+#include "Coroutine.h"
 
 struct Cell;
 struct Entity;
@@ -21,13 +22,16 @@ struct Enemy : Entity {
 		attacking
 	};
 
+	Texture texture;
 	int health;
 	int attackSpeed;
 	int damage;
 	int stamina;
 	int attackRange;
+	int size;
 	bool isAlive;
 	const char* enemyName;
+	const char* texturePath;
 	
 	Grid* grid;
 	GameLogic* gamelogic;
@@ -35,16 +39,18 @@ struct Enemy : Entity {
 	EnemyType type;
 	EnemyState state;
 
-	Enemy(int x, int y, int health, int attackSpeed, int damage, int stamina, EnemyType type, EnemyState state);
+	Coroutine::StepFunc behavior;
+
+	Enemy(int size, int x, int y, int health, int attackSpeed, int damage, int stamina, EnemyType type, EnemyState state, const char* texturePath);
 
 	void Draw() override;
 	void DrawHealthBar();
 	void Update() override;
-	virtual void Act();
+	virtual Coroutine::StepFunc Act();
 };
 
 struct Spider : Enemy {
 	using Enemy::Enemy;
 	void Update() override;
-	void Act() override;
+	Coroutine::StepFunc Act() override;
 };

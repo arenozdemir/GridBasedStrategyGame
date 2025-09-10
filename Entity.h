@@ -12,4 +12,5 @@ public:
 	virtual void Draw();
 	virtual Vector2 GetPos();
 	Cell* activeCell;
+	std::vector<Cell*> activeCells;
 };

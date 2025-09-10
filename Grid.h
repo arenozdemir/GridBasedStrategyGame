@@ -23,7 +23,9 @@ struct Grid
 
 	Entity* GetEntity(int x, int y);
 
-	void SetEntity(Entity* entity, int x, int y);
+	Cell& GetCellAtMousePos(int x, int y);
+
+	bool SetEntity(Entity* entity, int x, int y);
 
 	void Draw();
 

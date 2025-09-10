@@ -1,7 +1,7 @@
 #pragma once
 
-constexpr static int screenWidth = 1300;
-constexpr static int screenHeight = 700;
+constexpr static int screenWidth = 1920;
+constexpr static int screenHeight = 1080;
 constexpr static int spacing = 100;
 
 constexpr static int cardWidth = 100;

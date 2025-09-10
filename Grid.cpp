@@ -2,15 +2,22 @@
 #include "Grid.h"
 #include "rlgl.h"
 #include "Enemy.h"
+
+Texture deck;
+
 Grid::Grid(int width, int height) : width(width), height(height)
 {
-	//cells = std::vector<Cell>(width * height);
+	deck = LoadTexture("Asssets/Tahtamap.png");
+
 	cells.resize(height, std::vector<Cell>(width));
+
+	int offsetX = (GetScreenWidth() - (width * spacing)) / 2 - 30;
+	int offsetY = (GetScreenHeight() - (height * spacing)) / 2 - 5;
 
 	for (int y = 0; y < height; y++) {
 		for (int x = 0; x < width; x++) {
-			cells[y][x].x = x * spacing;
-			cells[y][x].y = y * spacing;
+			cells[y][x].x = offsetX + (x * spacing);
+			cells[y][x].y = offsetY + (y * spacing);
 			cells[y][x].pos = { (float)x, (float)y };
 		}
 	}
@@ -19,7 +26,7 @@ Grid::Grid(int width, int height) : width(width), height(height)
 
 Grid& Grid::Instance()
 {
-	static Grid instance(10, 5);
+	static Grid instance(8, 8);
 	return instance;
 }
 
@@ -41,22 +48,43 @@ Cell& Grid::at(int x, int y)
 
 Entity* Grid::GetEntity(int x, int y) {
 	Cell& cell = at(x, y);
-	return cell.owner; // Boşsa nullptr döner
+	return cell.owner;
 }
 
-void Grid::SetEntity(Entity* entity, int x, int y) {
+Cell& Grid::GetCellAtMousePos(int x, int y) {
+	x = (x - (GetScreenWidth() - (width * spacing)) / 2 + 30) / spacing;
+	y = (y - (GetScreenHeight() - (height * spacing)) / 2 + 5) / spacing;
+
+	return at(x, y);
+}
+
+bool Grid::SetEntity(Entity* entity, int x, int y) {
+	Cell& cell = at(x, y);
+
+	if (cell.owner != nullptr && cell.owner != entity) {
+		return false;
+	}
+
 	if (entity->activeCell != nullptr) {
 		entity->activeCell->owner = nullptr;
 		entity->activeCell = nullptr;
 	}
 
-	Cell& cell = at(x, y);
 	cell.owner = entity;
 	entity->activeCell = &cell;
+
+	//cellin kendine ait bir özelliği varsa burada yapacak
+	if (cell.UpdateSomething) {
+		cell.UpdateSomething(cell);
+	}
+
+	return true;
 }
 
 void Grid::Draw()
 {
+	DrawTexture(deck, 0, 0, WHITE);
+
 	for (int y = 0; y < height; y++)
 	{
 		for (int x = 0; x < width; x++)
@@ -66,23 +94,18 @@ void Grid::Draw()
 			DrawRectangleLines(cell.x, cell.y, spacing, spacing, BLACK);
 		}
 	}
-}
-
-std::vector<Enemy*> Grid::GetEnemies()
-{
-	std::vector<Enemy*> enemies;
-
-	for (int y = 0; y < height; y++) {
-		for (int x = 0; x < width; x++) {
-			Entity* entity = GetEntity(x, y);
-			if (Enemy* enemy = dynamic_cast<Enemy*>(entity)) {
-				enemies.push_back(enemy);
-			}
+	
+	for (std::vector<Cell>& row : cells) {
+		for (Cell& cell : row) {
+			if (cell.DrawSomething)
+				cell.DrawSomething(cell);
 		}
 	}
-	return enemies;
 }
 
 bool Grid::IsInsideGrid(int x, int y) const {
-	return (x >= 0 && x < width && y >= 0 && y < height);
+	int offsetX = (GetScreenWidth() - (width * spacing)) / 2 - 30;
+	int offsetY = (GetScreenHeight() - (height * spacing)) / 2 - 5;
+
+	return (x >= offsetX && x < offsetX + width * spacing && y >= offsetY && y < offsetY + height * spacing);
 }

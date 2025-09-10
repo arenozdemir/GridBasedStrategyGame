@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -39,36 +27,60 @@
       "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Grid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\GameLogic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:GameLogic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Grid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Grid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Deck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Deck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\GameLogic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:GameLogic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Coroutine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Coroutine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Coroutine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Coroutine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Cell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Cell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Cell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Cell.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Cell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Cell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Deck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Deck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -77,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FB19D2FD-E1DA-422C-853C-1266BFB4D0B7}|GridBasedStrategyGame.vcxproj|solutionrelative:pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,11 +98,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Coroutine.cpp",
+              "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Coroutine.cpp",
+              "RelativeDocumentMoniker": "Coroutine.cpp",
+              "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Coroutine.cpp",
+              "RelativeToolTip": "Coroutine.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-09T16:02:33.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Coroutine.h",
+              "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Coroutine.h",
+              "RelativeDocumentMoniker": "Coroutine.h",
+              "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Coroutine.h",
+              "RelativeToolTip": "Coroutine.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-09T16:01:55.938Z"
             },
             {
               "$type": "Document",
@@ -104,13 +136,13 @@
               "RelativeDocumentMoniker": "Cell.cpp",
               "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Cell.cpp",
               "RelativeToolTip": "Cell.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-14T13:22:36.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "pch.h",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\pch.h",
               "RelativeDocumentMoniker": "pch.h",
@@ -122,117 +154,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "pch.cpp",
-              "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\pch.cpp",
-              "RelativeDocumentMoniker": "pch.cpp",
-              "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\pch.cpp",
-              "RelativeToolTip": "pch.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-14T00:18:43.354Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "Cell.h",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Cell.h",
               "RelativeDocumentMoniker": "Cell.h",
               "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Cell.h",
               "RelativeToolTip": "Cell.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-08-09T17:56:17.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Enemy.h",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Enemy.h",
               "RelativeDocumentMoniker": "Enemy.h",
               "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Enemy.h",
               "RelativeToolTip": "Enemy.h",
-              "ViewState": "AgIAABgAAAAAAAAAAAAqwCkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-12T01:16:20.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T01:16:20.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "GameLogic.cpp",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\GameLogic.cpp",
               "RelativeDocumentMoniker": "GameLogic.cpp",
               "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\GameLogic.cpp",
               "RelativeToolTip": "GameLogic.cpp",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBUAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-11T15:01:58.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Enemy.cpp",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Enemy.cpp",
               "RelativeDocumentMoniker": "Enemy.cpp",
-              "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Enemy.cpp",
-              "RelativeToolTip": "Enemy.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Enemy.cpp*",
+              "RelativeToolTip": "Enemy.cpp*",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAIMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-12T01:18:23.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "GameLogic.h",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\GameLogic.h",
               "RelativeDocumentMoniker": "GameLogic.h",
               "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\GameLogic.h",
               "RelativeToolTip": "GameLogic.h",
-              "ViewState": "AgIAABEAAAAAAAAAAAAiwCUAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-08-11T15:01:31.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Hero.cpp",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Hero.cpp",
               "RelativeDocumentMoniker": "Hero.cpp",
               "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Hero.cpp",
               "RelativeToolTip": "Hero.cpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-10T00:00:32.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Config.h",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Config.h",
               "RelativeDocumentMoniker": "Config.h",
               "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Config.h",
               "RelativeToolTip": "Config.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-08-09T23:27:22.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Deck.cpp",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Deck.cpp",
               "RelativeDocumentMoniker": "Deck.cpp",
               "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Deck.cpp",
               "RelativeToolTip": "Deck.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvxEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-09T23:13:20.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "Deck.h",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Deck.h",
               "RelativeDocumentMoniker": "Deck.h",
@@ -244,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Entity.cpp",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Entity.cpp",
               "RelativeDocumentMoniker": "Entity.cpp",
@@ -256,31 +275,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "Grid.h",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Grid.h",
               "RelativeDocumentMoniker": "Grid.h",
               "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Grid.h",
               "RelativeToolTip": "Grid.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-08-09T16:24:38.403Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Card.cpp",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Card.cpp",
               "RelativeDocumentMoniker": "Card.cpp",
               "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Card.cpp",
               "RelativeToolTip": "Card.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-09T22:48:18.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Card.h",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Card.h",
               "RelativeDocumentMoniker": "Card.h",
@@ -292,52 +311,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Entity.h",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Entity.h",
               "RelativeDocumentMoniker": "Entity.h",
               "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Entity.h",
               "RelativeToolTip": "Entity.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-08-09T22:45:06.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Hero.h",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Hero.h",
               "RelativeDocumentMoniker": "Hero.h",
               "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Hero.h",
               "RelativeToolTip": "Hero.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-08-09T23:54:35.359Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
+              "Title": "pch.cpp",
+              "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\pch.cpp",
+              "RelativeDocumentMoniker": "pch.cpp",
+              "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\pch.cpp",
+              "RelativeToolTip": "pch.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-14T00:18:43.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Grid.cpp",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Grid.cpp",
               "RelativeDocumentMoniker": "Grid.cpp",
               "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Grid.cpp",
               "RelativeToolTip": "Grid.cpp",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAqwEwAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAE0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-09T17:21:49.816Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Main.cpp",
               "RelativeDocumentMoniker": "Main.cpp",
               "ToolTip": "C:\\Users\\Emre\\Documents\\Visual Studio 2022\\Projects\\GridBasedStrategyGame\\Main.cpp",
               "RelativeToolTip": "Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-09T16:24:51.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-09T16:24:51.193Z"
             }
           ]
         }

@@ -1,5 +1,7 @@
 #pragma once
 
+#include "Coroutine.h"
+
 struct Hero;
 struct Enemy;
 struct Grid;
@@ -23,6 +25,8 @@ struct GameLogic
 
 	std::vector<Hero*> heroes;
 
+	std::vector<Enemy*> enemies;
+
     void Update(float deltaTime);
 
     void Draw();
@@ -35,7 +39,11 @@ struct GameLogic
 
     void DrawAttackButton();
 
+    void DrawEndTourButton();
+
 	bool CheckStamina();
 
     void DrawStamina();
+    
+    CoroutineManager coroutineManager;
 };

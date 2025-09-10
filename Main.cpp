@@ -3,14 +3,15 @@
 #include "Card.h"
 #include "Deck.h"
 #include "Hero.h"
-//#include "GameLogic.h"
 #include "Enemy.h"
 
 int main() {
 
-	InitWindow(screenWidth, screenHeight, "Grid game");
-
-	SetTargetFPS(60);
+	InitWindow(1920, 1080, "Grid game");
+    
+    ToggleFullscreen();
+	
+    SetTargetFPS(60);
     GameLogic& gameLogic = GameLogic::Instance();
     Grid& grid = Grid::Instance();
 
@@ -24,18 +25,19 @@ int main() {
 	deck.AddCard(&staminaCard);
 	deck.AddCard(&attackRangeCard);
 
-    Hero swordMan(5,4,"swordman",100, 1, 20,100, HeroType::swordman, HeroState::idle);
-    Hero archer(3, 3, "archer", 100, 2.5, 15, 100, HeroType::archer, HeroState::idle);
+    Hero swordMan(5,4,"swordman",100, 1, 20,100, HeroType::swordman, HeroState::idle,"Asssets/Swordman.png");
+    //Hero archer(3, 3, "archer", 100, 2.5, 15, 100, HeroType::archer, HeroState::idle,"null");
 
 	gameLogic.heroes.push_back(&swordMan);
-    gameLogic.heroes.push_back(&archer);
+    //gameLogic.heroes.push_back(&archer);
+    Spider spider(3, 4, 1, 100, 100, 100, 100, Enemy::EnemyType::Spider, Enemy::EnemyState::idle, "Asssets/spider.png");
 
-    Spider spider(4, 1, 100, 100, 100, 100, Enemy::EnemyType::Spider, Enemy::EnemyState::idle);
+	gameLogic.enemies.push_back(&spider);
 
     deck.AddHero(&swordMan);
-    deck.AddHero(&archer);
+    //deck.AddHero(&archer);
 
-    Entity* entities[] = { &deck, &spider };
+    Entity* entities[] = { &deck, &spider};
 
     int entityCount = sizeof(entities) / sizeof(entities[0]);
 
@@ -45,9 +47,6 @@ int main() {
 
         Vector2 mousePos = GetMousePosition();
 
-        int cellX = (int)(mousePos.x / spacing);
-        int cellY = (int)(mousePos.y / spacing);
-
         gameLogic.Update(deltaTime);
         for (int i = 0; i < entityCount; i++)
         {
@@ -55,31 +54,18 @@ int main() {
         }
 
         BeginDrawing();
+
         ClearBackground(RAYWHITE);
-
-        if (cellX >= 0 && cellX < grid.width && cellY >= 0 && cellY < grid.height)
-        {
-            Cell& cell = grid.at(cellX, cellY);
-
-            DrawText(TextFormat("X: %d, Y: %d, Value: %d", cellX, cellY),
-                10, 10, 20, BLACK);
-        }
-
-        else
-        {
-            DrawText("Mouse outside grid", 10, 10, 20, RED);
-        }
-
-		gameLogic.Draw();
         grid.Draw();
-        archer.Draw();
+        gameLogic.Draw();
+        //archer.Draw();
         swordMan.Draw();
 
         for (int i = 0; i < entityCount; i++)
         {
             entities[i]->Draw();
         }
-
+        //DrawText(TextFormat("FPS: %i", GetFPS()), 10, 10, 50, RED);
         EndDrawing();
     }
 
