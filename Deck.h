@@ -18,4 +18,6 @@ struct Deck : Entity
     void Draw() override;
 
     void Update() override;
+
+	bool HandleInput();
 };

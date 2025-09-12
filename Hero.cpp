@@ -4,7 +4,6 @@
 #include "Grid.h"
 #include "Card.h"
 #include "Enemy.h"
-//#include "GameLogic.h"
 
 Hero::Hero(int posX, int posY, const char* heroName, int health, int attackSpeed, int damage, int stamina, HeroType type, HeroState state, const char* texturePath) : posX(posX), posY(posY), heroName(heroName), health(health), attackSpeed(attackSpeed), damage(damage), stamina(stamina), type(type), state(state), grid(&Grid::Instance()), texturePath(texturePath) {
 	activeCell = &grid->at(posX, posY);
@@ -29,6 +28,8 @@ void Hero::Draw()
 	DrawTexturePro(texture, src, dest, origin, 180.0f, WHITE);
 
 	DrawHealthBar();
+
+	DrawStaminaBar();
 }
 
 void Hero::Update()
@@ -114,4 +115,20 @@ void Hero::DrawHealthBar()
 	int healthWidth = static_cast<int>(barWidth * healthPercentage);
 
 	DrawRectangle(healthBarX, healthBarY, healthWidth, barHeight, GREEN);
+}
+
+void Hero::DrawStaminaBar()
+{
+	int barWidth = 50;
+	int barHeight = 10;
+	int staminaBarX = activeCell->x + spacing / 2 - barWidth / 2;
+	int staminaBarY = activeCell->y + spacing / 2 - 30;
+
+	DrawRectangle(staminaBarX, staminaBarY, barWidth, barHeight, DARKGRAY);
+
+	float staminaPercentage = static_cast<float>(stamina) / 100.0f; // Assuming max stamina is 100
+	int staminaWidth = static_cast<int>(barWidth * staminaPercentage);
+
+	DrawRectangle(staminaBarX, staminaBarY, staminaWidth, barHeight, BLUE);
+	DrawText(TextFormat("Stamina level is: %i", stamina), 0, 0, 50, BLUE);
 }

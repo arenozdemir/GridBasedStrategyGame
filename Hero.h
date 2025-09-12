@@ -41,6 +41,7 @@ struct Hero : Entity
 	void StaminaUpdate(int value);
 	void Attack(Enemy* enemy, const Cell* targetCell);
 	void DrawHealthBar();
+	void DrawStaminaBar();
 	bool CheckRange(Vector2 sourcePos, Vector2 endPos);
 };
 

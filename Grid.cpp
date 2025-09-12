@@ -73,7 +73,6 @@ bool Grid::SetEntity(Entity* entity, int x, int y) {
 	cell.owner = entity;
 	entity->activeCell = &cell;
 
-	//cellin kendine ait bir özelliği varsa burada yapacak
 	if (cell.UpdateSomething) {
 		cell.UpdateSomething(cell);
 	}

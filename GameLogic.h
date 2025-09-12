@@ -1,6 +1,8 @@
 #pragma once
 
 #include "Coroutine.h"
+#include "Entities.h"
+#include "Entity.h"
 
 struct Hero;
 struct Enemy;
@@ -43,7 +45,7 @@ struct GameLogic
 
 	bool CheckStamina();
 
-    void DrawStamina();
+	void AddEntity(Entity* entity);
     
     CoroutineManager coroutineManager;
 };

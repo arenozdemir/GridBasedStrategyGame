@@ -173,6 +173,7 @@
     <ClInclude Include="Coroutine.h" />
     <ClInclude Include="Deck.h" />
     <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Entities.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="GameLogic.h" />
     <ClInclude Include="Grid.h" />

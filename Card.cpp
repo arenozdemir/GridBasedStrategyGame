@@ -21,16 +21,11 @@ void Card::Effect(Hero* hero)
 
 void Card::Draw()
 {
-    DrawRectangle(x, y, width, height, DARKGRAY);
-
-    int segmentHeight = height / 4;
-    DrawLine(x, y + segmentHeight, x + width, y + segmentHeight, BLACK);
-    DrawLine(x, y + 2 * segmentHeight, x + width, y + 2 * segmentHeight, BLACK);
-    DrawLine(x, y + 3 * segmentHeight, x + width, y + 3 * segmentHeight, BLACK);
-
-    DrawText(cardName, x + 5, y + 5, 10, WHITE);
-    DrawText(cardDescription, x + 5, y + segmentHeight + 5, 10, WHITE);
-    DrawText(TextFormat("Stamina: %d", staminaCost), x + 5, y + 2 * segmentHeight + 5, 10, WHITE);
+	float scale = 0.2f;
+	Rectangle source = { 0.0f, 0.0f, (float)texture.width, (float)texture.height };
+	Rectangle dest = { (float)x, (float)y, (float)texture.width * scale, (float)texture.height * scale };
+	Vector2 origin = { 0.0f, 0.0f };
+	DrawTexturePro(texture, source, dest, origin, 0.0f, WHITE);
 }
 
 void HealCard::Effect(Hero* hero)

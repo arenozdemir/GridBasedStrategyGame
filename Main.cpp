@@ -1,9 +1,12 @@
 ﻿#include "pch.h"
+#include "Entities.h"
 #include "Grid.h"
 #include "Card.h"
 #include "Deck.h"
 #include "Hero.h"
 #include "Enemy.h"
+
+std::vector<Entity*> entities;
 
 int main() {
 
@@ -26,20 +29,17 @@ int main() {
 	deck.AddCard(&attackRangeCard);
 
     Hero swordMan(5,4,"swordman",100, 1, 20,100, HeroType::swordman, HeroState::idle,"Asssets/Swordman.png");
-    //Hero archer(3, 3, "archer", 100, 2.5, 15, 100, HeroType::archer, HeroState::idle,"null");
 
 	gameLogic.heroes.push_back(&swordMan);
-    //gameLogic.heroes.push_back(&archer);
+
     Spider spider(3, 4, 1, 100, 100, 100, 100, Enemy::EnemyType::Spider, Enemy::EnemyState::idle, "Asssets/spider.png");
 
 	gameLogic.enemies.push_back(&spider);
 
     deck.AddHero(&swordMan);
-    //deck.AddHero(&archer);
 
-    Entity* entities[] = { &deck, &spider};
-
-    int entityCount = sizeof(entities) / sizeof(entities[0]);
+	entities.push_back(&deck);
+	entities.push_back(&spider);
 
     while (!WindowShouldClose())
     {
@@ -48,7 +48,7 @@ int main() {
         Vector2 mousePos = GetMousePosition();
 
         gameLogic.Update(deltaTime);
-        for (int i = 0; i < entityCount; i++)
+        for (int i = 0; i < entities.size(); i++)
         {
             entities[i]->Update();
         }
@@ -58,14 +58,12 @@ int main() {
         ClearBackground(RAYWHITE);
         grid.Draw();
         gameLogic.Draw();
-        //archer.Draw();
         swordMan.Draw();
 
-        for (int i = 0; i < entityCount; i++)
+        for (int i = 0; i < entities.size(); i++)
         {
             entities[i]->Draw();
         }
-        //DrawText(TextFormat("FPS: %i", GetFPS()), 10, 10, 50, RED);
         EndDrawing();
     }
 

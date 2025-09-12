@@ -1,2 +1,8 @@
 ﻿  Enemy.cpp
+C:\Users\Emre\Documents\Visual Studio 2022\Projects\GridBasedStrategyGame\Enemy.cpp(91,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Enemy.cpp')
+  
+C:\Users\Emre\Documents\Visual Studio 2022\Projects\GridBasedStrategyGame\Enemy.cpp(254,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Enemy.cpp')
+  
   GridBasedStrategyGame.vcxproj -> C:\Users\Emre\Documents\Visual Studio 2022\Projects\GridBasedStrategyGame\GridBase\Debug\GridBasedStrategyGame.exe

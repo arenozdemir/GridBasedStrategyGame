@@ -61,7 +61,6 @@ void GameLogic::Draw()
 {
     Timer();
     DrawAttackButton();
-    DrawStamina();
     DrawEndTourButton();
 }
 
@@ -105,7 +104,7 @@ void GameLogic::SelectEntityFromCell()
 }
 
 void GameLogic::Timer() {
-    Vector2 center = { screenWidth - 1300, screenHeight - 100 };
+    Vector2 center = { screenWidth - 1600, screenHeight - 100 };
     float rotationSpeed = 12.0;
     float endAngle = fmod(timer * rotationSpeed, 360.0f);
     DrawCircleSector(center, 30, 0, endAngle, 32, RED);
@@ -147,14 +146,16 @@ bool GameLogic::CheckStamina()
     return true;
 }
 
-void GameLogic::DrawStamina()
+void GameLogic::AddEntity(Entity* entity)
 {
-    if (ActiveHero != nullptr) {
-        int staminaPosX = screenWidth / 2 - (ActiveHero->stamina * 10 / 2);
-        int staminaPosY = screenHeight - 10;
+	if (Hero* hero = dynamic_cast<Hero*>(entity)) {
+		heroes.push_back(hero);
+	}
+	else if (Enemy* enemy = dynamic_cast<Enemy*>(entity)) {
+		enemies.push_back(enemy);
+	}
 
-        DrawRectangle(staminaPosX, staminaPosY, ActiveHero->stamina * 10, 10, BLUE);
-    }
+	entities.push_back(entity);
 }
 
 void GameLogic::EndTurn()
@@ -174,7 +175,7 @@ void GameLogic::EndTurn()
         currentEnemyCoroutine = nullptr;
         for (Enemy* enemy : enemies) {
             if (enemy->isAlive)
-                enemyQueue.push(enemy->Act()); // sıraya ekle
+                enemyQueue.push(enemy->Act());
         }
     }
 }
